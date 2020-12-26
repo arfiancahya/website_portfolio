@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0A4A58;
+    background-image: url(../wallpaper\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepages {
+    color: #E0E0E0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    bottom: 100px;
+}
+
+.homepages h1 {
+    font-family: 'Sniglet', cursive;
+    font-size: 4.5rem;
+}
+
+.homepages p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-top: 0.4rem;
+}
+
+.homepages__button {
+    position: relative;
+}
+
+.homepages__button button {
+    color: #EEEEEE;
+    font-family: 'Itim', cursive;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: 23px;
+    margin-top: 87px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 6.4px 0px #000000;
+    ;
+}
+
+.homepages__button--grey {
+    background-color: #444444;
+}
+
+.homepages__button a button span {
+    position: absolute;
+    left: 280px;
+    top: 102px;
+}
+
+.homepages__button a button img {
+    position: absolute;
+    right: 280px;
+    bottom: 15px;
+}
+
+.intro {
+    display: none;
+}
