@@ -4,6 +4,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    left: 35px;
 }
 
 .la-pacman {
@@ -57,7 +58,7 @@
 .la-pacman>div:nth-child(6) {
     position: absolute;
     top: 50%;
-    left: 200%;
+    left: 320%;
     width: 8px;
     height: 8px;
     border-radius: 100%;
@@ -296,7 +297,7 @@
 
 @-moz-keyframes pacman-balls {
     0% {
-        left: 200%;
+        left: 300%;
         opacity: 0;
         -moz-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -319,7 +320,7 @@
 
 @-o-keyframes pacman-balls {
     0% {
-        left: 200%;
+        left: 300%;
         opacity: 0;
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -342,7 +343,7 @@
 
 @keyframes pacman-balls {
     0% {
-        left: 200%;
+        left: 320%;
         opacity: 0;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);

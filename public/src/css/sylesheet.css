@@ -46,7 +46,6 @@ body {
 .homepages__button button {
     color: #EEEEEE;
     font-family: 'Itim', cursive;
-    font-size: 2.1rem;
     text-transform: uppercase;
     width: 15rem;
     height: 4.5rem;
@@ -68,6 +67,7 @@ body {
 
 .homepages__button--grey {
     background-color: #444444;
+    font-size: 2.1rem;
 }
 
 .homepages__button a button span {
@@ -121,4 +121,72 @@ body {
 .hide span {
     transform: translateY(100%);
     display: inline-block;
+}
+
+.loading {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.loading h1 {
+    margin-top: 10px;
+    color: #E0E0E0;
+    font-size: 2rem;
+}
+
+
+/*Halaman Home*/
+
+.main-home {
+    color: #E0E0E0;
+    min-height: 100vh;
+    background-image: url("../Coding\ Wallpapers\ 38\ 1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home {
+    display: flex;
+    min-height: 100vh;
+}
+
+.home__navbar {
+    background-color: rgba(99, 98, 98, 0.6);
+    width: 90px;
+}
+
+.home__navbar ul {
+    margin: 190px 10px;
+}
+
+.home__navbar ul li a img {
+    margin-top: 12px;
+    margin-left: 5px;
+    width: 58px;
+}
+
+.home__content {
+    flex: 1;
+    align-self: center;
+    margin-left: 38px;
+}
+
+.home__content h1 {
+    font-family: 'Sniglet', cursive;
+    font-size: 4.5rem;
+}
+
+.home__content p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.homepages__button--greyft {
+    background-color: #444444;
+    font-size: 30px;
 }
