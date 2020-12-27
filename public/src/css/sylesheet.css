@@ -7,11 +7,6 @@
 
 body {
     min-height: 100vh;
-    background-color: #0A4A58;
-    background-image: url(../wallpaper\ 2.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .homepages {
@@ -21,8 +16,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    position: relative;
-    bottom: 100px;
+    background-color: #0A4A58;
+    background-image: url(../wallpaper\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepages__title {
+    position: absolute;
+    bottom: 35%;
 }
 
 .homepages h1 {
