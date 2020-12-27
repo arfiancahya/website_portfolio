@@ -52,7 +52,15 @@ body {
     outline: none;
     border: none;
     box-shadow: 0px 6.4px 0px #000000;
-    ;
+}
+
+.homepages__button button:hover {
+    cursor: pointer;
+    background-color: rgba(105, 105, 105, 0.719);
+}
+
+.homepages__button button:active {
+    box-shadow: 0px 3px 0px #000000;
 }
 
 .homepages__button--grey {
@@ -72,5 +80,42 @@ body {
 }
 
 .intro {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intro__text {
+    color: rgb(227, 242, 255);
+    font-family: 'Sniglet', cursive;
+    font-size: 2.5rem;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e7c7b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.hide {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
 }
