@@ -284,10 +284,18 @@ body {
     margin-top: 1rem;
 }
 
+.mrg-top--32 {
+    margin-top: 2rem;
+}
+
 .mrg-bottom {
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .home__content p span a {
     color: #E0E0E0;
+}
+
+.home__content p span a:hover {
+    color: #444444;
 }
