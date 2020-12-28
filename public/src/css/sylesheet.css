@@ -160,13 +160,64 @@ body {
 }
 
 .home__navbar ul {
-    margin: 190px 10px;
+    margin: 104px auto 180px;
 }
 
 .home__navbar ul li a img {
-    margin-top: 12px;
-    margin-left: 5px;
+    position: relative;
+    bottom: 13px;
+    left: 13px;
+    margin-top: 32px;
     width: 58px;
+}
+
+#icon1 {
+    display: block;
+    width: 100%;
+}
+
+#icon2 {
+    display: block;
+    width: 100%;
+}
+
+#icon3 {
+    display: block;
+    width: 100%;
+}
+
+#icon4 {
+    display: block;
+    width: 100%;
+}
+
+#icon5 {
+    display: block;
+    width: 100%;
+}
+
+#icon1:hover {
+    background-color: #6e7c7b;
+}
+
+#icon2:hover {
+    background-color: #6e7c7b;
+}
+
+#icon3:hover {
+    background-color: #6e7c7b;
+}
+
+#icon4:hover {
+    background-color: #6e7c7b;
+}
+
+#icon5:hover {
+    background-color: #6e7c7b;
+}
+
+.home__navbar ul li a img:hover {
+    cursor: pointer;
 }
 
 .home__content {
