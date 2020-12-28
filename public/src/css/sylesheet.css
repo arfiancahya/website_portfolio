@@ -7,7 +7,11 @@
 
 body {
     min-height: 100vh;
+    overflow-y: hidden;
 }
+
+
+/*Style Starting Pages */
 
 .homepages {
     color: #E0E0E0;
@@ -138,7 +142,7 @@ body {
 }
 
 
-/*Halaman Home*/
+/*Style Halaman Home*/
 
 .main-home {
     color: #E0E0E0;
@@ -167,7 +171,7 @@ body {
     position: relative;
     bottom: 13px;
     left: 13px;
-    margin-top: 32px;
+    margin-top: 36px;
     width: 58px;
 }
 
