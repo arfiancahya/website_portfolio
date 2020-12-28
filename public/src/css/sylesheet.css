@@ -287,3 +287,7 @@ body {
 .mrg-bottom {
     margin-bottom: 120px;
 }
+
+.home__content p span a {
+    color: #E0E0E0;
+}
