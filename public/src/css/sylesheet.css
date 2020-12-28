@@ -266,10 +266,24 @@ body {
 .home__content p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
+}
+
+.mrg-top {
     margin-top: 3rem;
 }
 
 .homepages__button--greyft {
     background-color: #444444;
     font-size: 26px;
+}
+
+
+/*Style Halaman About*/
+
+.mrg-top--16 {
+    margin-top: 1rem;
+}
+
+.mrg-bottom {
+    margin-bottom: 120px;
 }
