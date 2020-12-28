@@ -201,23 +201,51 @@ body {
 }
 
 #icon1:hover {
-    background-color: #6e7c7b;
+    opacity: 1;
+    background-color: #5c6362;
 }
 
 #icon2:hover {
-    background-color: #6e7c7b;
+    background-color: #5c6362;
 }
 
 #icon3:hover {
-    background-color: #6e7c7b;
+    background-color: #5c6362;
 }
 
 #icon4:hover {
-    background-color: #6e7c7b;
+    background-color: #5c6362;
 }
 
 #icon5:hover {
-    background-color: #6e7c7b;
+    background-color: #5c6362;
+}
+
+.home__navbar ul li a span {
+    display: block;
+    width: 90px;
+    height: 100px;
+    background-color: #5c6362;
+}
+
+.overlay {
+    font-family: 'Sniglet', cursive;
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
 }
 
 .home__navbar ul li a img:hover {
