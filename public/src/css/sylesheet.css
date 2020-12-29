@@ -127,12 +127,19 @@ body {
     display: inline-block;
 }
 
+
+/*Style Halaman Home*/
+
 .loading {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
     background-color: #000000;
+    z-index: 99;
+    transition: opacity 1.5s ease-in-out;
 }
 
 .loading h1 {
@@ -141,8 +148,10 @@ body {
     font-size: 2rem;
 }
 
-
-/*Style Halaman Home*/
+.loading-finish {
+    opacity: 0;
+    pointer-events: none;
+}
 
 .main-home {
     color: #E0E0E0;
