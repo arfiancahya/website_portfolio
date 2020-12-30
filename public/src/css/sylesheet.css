@@ -263,8 +263,11 @@ body {
 
 .home__content {
     flex: 1;
-    align-self: center;
     margin-left: 38px;
+}
+
+.vertical-center {
+    align-self: center;
 }
 
 .home__content h1 {
@@ -345,4 +348,11 @@ body {
 
 #div1 .yellow {
     color: yellow;
+}
+
+
+/*Style Halaman Portfolio*/
+
+.middle {
+    text-align: center;
 }
