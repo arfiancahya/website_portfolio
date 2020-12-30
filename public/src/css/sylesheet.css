@@ -7,7 +7,6 @@
 
 body {
     min-height: 100vh;
-    overflow-y: hidden;
 }
 
 
@@ -174,6 +173,7 @@ body {
 
 .home__navbar ul {
     margin: 104px auto 180px;
+    position: fixed;
 }
 
 .home__navbar ul li a img {
@@ -375,15 +375,16 @@ body {
     width: 100%;
 }
 
-.images {
+.images img {
     display: flex;
+    width: 95%;
 }
 
 @media screen and (min-width: 40em) {
     .gallery__items {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .items {
         display: flex;
@@ -398,5 +399,8 @@ body {
     .items {
         flex: 0 1 calc(25% - 1em);
         margin-bottom: 2em;
+    }
+    .images img {
+        width: inherit;
     }
 }
