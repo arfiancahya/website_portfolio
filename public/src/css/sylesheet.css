@@ -392,6 +392,14 @@ body::-webkit-scrollbar-thumb {
     display: flex;
 }
 
+.txt-right {
+    margin-right: 165px;
+}
+
+.items .caption span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .container .gallery__items .items.hide {
     display: none;
 }
