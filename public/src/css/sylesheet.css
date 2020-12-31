@@ -385,8 +385,12 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
     transition: transform .5s ease;
+    background: rgba( 165, 165, 165, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 10.0px);
+    -webkit-backdrop-filter: blur( 10.0px);
+    border-radius: 31px 31px 10px 10px;
 }
 
 .items:hover {
@@ -398,25 +402,23 @@ body::-webkit-scrollbar-thumb {
     display: flex;
 }
 
-.txt-right {
-    margin-right: 165px;
-}
-
-.mrg-rgt--98 {
-    margin-right: 100px;
-}
-
 .items .caption span {
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+.items .caption {
+    margin-left: 10px;
 }
 
 .items .caption .right {
     float: right;
-    padding-right: 5px;
+    margin-right: 5px;
 }
 
 .items .caption p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .container .gallery__items .items.hide {
@@ -429,11 +431,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 @keyframes show {
-    0$ {
+    0% {
         opacity: 0;
         transform: scale(0.9);
     }
-    100$ {
+    100% {
         opacity: 1;
         transform: scale(1);
     }
@@ -476,6 +478,7 @@ body::-webkit-scrollbar-thumb {
     .items {
         display: flex;
         flex: 0 1 calc(50% - .5em);
+        margin-bottom: 20px;
     }
     .items .caption .right {
         float: right;
