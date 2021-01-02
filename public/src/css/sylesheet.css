@@ -82,6 +82,10 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0px 3px 0px #000000;
 }
 
+fieldset {
+    border: none;
+}
+
 .homepages__button--grey {
     background-color: #444444;
     font-size: 2.1rem;
