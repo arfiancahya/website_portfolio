@@ -487,6 +487,10 @@ body::-webkit-scrollbar-thumb {
     background-color: #202020;
 }
 
+.pd-top--20 {
+    padding-top: 50px;
+}
+
 .home__input {
     margin-top: 45px;
 }
@@ -501,11 +505,55 @@ body::-webkit-scrollbar-thumb {
 }
 
 input {
+    background-color: #4A4A4A;
     padding: 10px;
+    border: none;
+    color: #E0E0E0;
+}
+
+input::placeholder {
+    color: #BFBFBF;
 }
 
 textarea {
+    background-color: #4A4A4A;
     padding: 10px;
+    border: none;
+    color: #E0E0E0;
+}
+
+textarea::placeholder {
+    color: #BFBFBF;
+}
+
+.home__input .input__button {
+    text-align: right;
+    margin-right: 28px;
+    margin-top: 72px;
+}
+
+.home__input .input__button button {
+    text-transform: uppercase;
+    color: #EEEEEE;
+    font-family: 'Itim', cursive;
+    width: 86px;
+    height: 39px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 6.4px 0px #000000;
+    background-color: #444444;
+}
+
+.home__input .input__button button:hover {
+    cursor: pointer;
+    background-color: rgba(105, 105, 105, 0.719);
+}
+
+.home__input .input__button button:active {
+    position: relative;
+    top: 0.6rem;
+    box-shadow: 0px 3px 0px #202020;
 }
 
 .width--48 {
