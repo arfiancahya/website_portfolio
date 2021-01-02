@@ -281,6 +281,9 @@ body::-webkit-scrollbar-thumb {
 
 .home__content {
     flex: 1;
+}
+
+.mrg-left--38 {
     margin-left: 38px;
 }
 
@@ -473,6 +476,15 @@ body::-webkit-scrollbar-thumb {
     border: gray;
     color: #6e7c7b;
     pointer-events: none;
+}
+
+
+/* Style Contact Pages */
+
+.home__container {
+    width: 60%;
+    height: 100vh;
+    background-color: #202020;
 }
 
 @media screen and (min-width: 40em) {
