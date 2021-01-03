@@ -71,28 +71,30 @@
                             <span>I created</span>
                         </p>
                     </div>
-                    <div class="home__input mrg-left--38">
+                    <div class="home__input mrg-left--38 gform">
                         <form data-email="fiancahya@gmail.com" action="https://script.google.com/macros/s/AKfycbzvWRqI2EozSVOXBqD-ckIF9xohB7YFmw42AfrLGkz1gDZutqcC/exec" method="post">
-                            <fieldset class="elem__group">
-                                <label for="name" style="display: none;">Your Name</label>
-                                <input class="width--48" type="text" id="name" name="name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
-                                <label for="email" style="display: none;">Your Email</label>
-                                <input class="width--48" type="email" id="email" name="email" placeholder="Email" required>
-                            </fieldset>
-                            <fieldset class="elem__group">
-                                <label for="title" style="display: none;">Your Subject</label>
-                                <input class="width--96" type="text" id="title" name="title" required placeholder="Subject" pattern=[A-Za-z0-9\s]{8,60}>
-                            </fieldset>
-                            <fieldset class="elem__group">
-                                <label for="message" style="display: none;">Your Message</label>
-                                <textarea class="width--96" id="message" name="message" placeholder="Message" required></textarea>
-                            </fieldset>
-                            <div class="input__button">
-                                <button type="submit">Send</button>
-                            </div>
+                            <div class="form-elements">
+                                <fieldset class="elem__group">
+                                    <label for="name" style="display: none;">Your Name</label>
+                                    <input class="width--48" type="text" id="name" name="name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
+                                    <label for="email" style="display: none;">Your Email</label>
+                                    <input class="width--48" type="email" id="email" name="email" placeholder="Email" required>
+                                </fieldset>
+                                <fieldset class="elem__group">
+                                    <label for="title" style="display: none;">Your Subject</label>
+                                    <input class="width--96" type="text" id="title" name="title" required placeholder="Subject" pattern=[A-Za-z0-9\s]{8,60}>
+                                </fieldset>
+                                <fieldset class="elem__group">
+                                    <label for="message" style="display: none;">Your Message</label>
+                                    <textarea class="width--96" id="message" name="message" placeholder="Message" required></textarea>
+                                </fieldset>
+                                <div class="input__button">
+                                    <button type="submit">Send</button>
+                                </div>
 
-                            <div class="thankyou_message" style="display:none;">
-                                <h2><em>Thanks</em> for contacting us again! We will get back to you soon!</h2>
+                                <div class="thankyou_message">
+                                    <h2><em>Thanks</em> for contacting us again! We will get back to you soon!</h2>
+                                </div>
                             </div>
                         </form>
                     </div>

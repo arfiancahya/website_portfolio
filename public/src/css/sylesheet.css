@@ -487,7 +487,7 @@ fieldset {
 
 .home__container {
     width: 50%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #202020;
 }
 
@@ -570,6 +570,10 @@ textarea::placeholder {
     width: 96.6%;
     height: 64px;
     border-radius: 10px;
+}
+
+.thankyou_message {
+    display: none;
 }
 
 @media screen and (min-width: 40em) {
