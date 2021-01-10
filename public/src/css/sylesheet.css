@@ -519,6 +519,16 @@ input::placeholder {
     color: #BFBFBF;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid #a8a8a8;
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid #a8a8a8;
+}
+
 textarea {
     background-color: #4A4A4A;
     padding: 10px;
