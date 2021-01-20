@@ -342,10 +342,7 @@ fieldset {
 /*Style Halaman Skill*/
 
 #div1 {
-    position: relative;
-    width: 450px;
-    right: 100px;
-    margin: 20px auto 0;
+    display: none;
 }
 
 #div1 a {
@@ -394,6 +391,7 @@ fieldset {
     width: 100%;
     flex: 0 1 calc(100% - .5em);
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .items {
@@ -406,6 +404,8 @@ fieldset {
     backdrop-filter: blur( 10.0px);
     -webkit-backdrop-filter: blur( 10.0px);
     border-radius: 31px 31px 10px 10px;
+    margin-bottom: 20px;
+    width: 300px;
 }
 
 .items:hover {
@@ -415,6 +415,7 @@ fieldset {
 
 .images img {
     display: flex;
+    width: 100%;
 }
 
 .items .caption span {
@@ -611,6 +612,7 @@ textarea::placeholder {
         display: flex;
         flex: 0 1 calc(50% - .5em);
         margin-bottom: 20px;
+        width: 397px;
     }
     .items .caption .right {
         float: right;
@@ -641,6 +643,7 @@ textarea::placeholder {
     .items {
         flex: 0 1 calc(25% - 1em);
         margin-bottom: 2em;
+        width: 397px;
     }
     .images img {
         width: inherit;
@@ -648,6 +651,13 @@ textarea::placeholder {
     .items .caption .right {
         float: right;
         padding-right: 5px;
+    }
+    #div1 {
+        position: relative;
+        display: inherit;
+        width: 450px;
+        right: 100px;
+        margin: 20px auto 0;
     }
     .home__container {
         width: 50%;
