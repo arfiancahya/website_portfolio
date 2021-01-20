@@ -93,13 +93,13 @@ fieldset {
 
 .homepages__button a button span {
     position: absolute;
-    left: 280px;
+    left: 23%;
     top: 102px;
 }
 
 .homepages__button a button img {
     position: absolute;
-    right: 280px;
+    right: 23%;
     bottom: 15px;
 }
 
@@ -590,6 +590,16 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 40em) {
+    .homepages__button a button span {
+        position: absolute;
+        left: 37%;
+        top: 102px;
+    }
+    .homepages__button a button img {
+        position: absolute;
+        right: 37%;
+        bottom: 15px;
+    }
     .home__navbar {
         width: 90px;
         left: 0;
@@ -628,6 +638,16 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 60em) {
+    .homepages__button a button span {
+        position: absolute;
+        left: 37%;
+        top: 102px;
+    }
+    .homepages__button a button img {
+        position: absolute;
+        right: 37%;
+        bottom: 15px;
+    }
     .home__navbar {
         width: 90px;
         left: 0;
