@@ -196,8 +196,9 @@ fieldset {
 }
 
 .home__navbar ul {
-    margin: auto 20px;
+    margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 .home__navbar ul li a img {
@@ -205,7 +206,8 @@ fieldset {
     bottom: 13px;
     left: 13px;
     margin-top: 36px;
-    width: 58px;
+    width: 30px;
+    margin-right: 40px;
 }
 
 #icon1 {
@@ -256,8 +258,8 @@ fieldset {
 
 .home__navbar ul li a span {
     display: block;
-    width: 90px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: #5c6362;
 }
 
@@ -274,8 +276,8 @@ fieldset {
 
 .texts {
     color: white;
-    padding-top: 40px;
-    font-size: 20px;
+    padding-top: 25px;
+    font-size: 16px;
     bottom: 0px;
     position: absolute;
     text-align: center;
@@ -299,12 +301,12 @@ fieldset {
 
 .home__content h1 {
     font-family: 'Sniglet', cursive;
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 
 .home__content p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .mrg-top {
@@ -313,7 +315,7 @@ fieldset {
 
 .homepages__button--greyft {
     background-color: #444444;
-    font-size: 26px;
+    font-size: 14px;
 }
 
 
@@ -561,6 +563,7 @@ textarea::placeholder {
     border: none;
     box-shadow: 0px 6.4px 0px #000000;
     background-color: #444444;
+    margin-bottom: 90px;
 }
 
 .home__input .input__button button:hover {
@@ -617,6 +620,9 @@ textarea::placeholder {
         bottom: 15px;
         width: 40px;
     }
+    .homepages__button--greyft {
+        font-size: 26px;
+    }
     .home__navbar {
         width: 90px;
         left: 0;
@@ -626,6 +632,23 @@ textarea::placeholder {
     .home__navbar ul {
         margin: 104px auto 180px;
         display: block;
+    }
+    .home__navbar ul li a img {
+        width: 58px;
+    }
+    .home__navbar ul li a span {
+        width: 90px;
+        height: 100px;
+    }
+    .texts {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    .home__content h1 {
+        font-size: 4.5rem;
+    }
+    .home__content p {
+        font-size: 1.5rem;
     }
     .mrg-left--38 {
         margin-left: 125px;
@@ -650,6 +673,9 @@ textarea::placeholder {
         width: 50%;
     }
     .pagination {
+        margin-bottom: 0;
+    }
+    .home__input .input__button button {
         margin-bottom: 0;
     }
 }
@@ -681,6 +707,9 @@ textarea::placeholder {
         bottom: 15px;
         width: 40px;
     }
+    .homepages__button--greyft {
+        font-size: 26px;
+    }
     .home__navbar {
         width: 90px;
         left: 0;
@@ -690,6 +719,23 @@ textarea::placeholder {
     .home__navbar ul {
         margin: 104px auto 180px;
         display: block;
+    }
+    .home__navbar ul li a img {
+        width: 58px;
+    }
+    .home__navbar ul li a span {
+        width: 90px;
+        height: 100px;
+    }
+    .texts {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    .home__content h1 {
+        font-size: 4.5rem;
+    }
+    .home__content p {
+        font-size: 1.5rem;
     }
     .mrg-left--38 {
         margin-left: 125px;
@@ -720,6 +766,9 @@ textarea::placeholder {
         width: 50%;
     }
     .pagination {
+        margin-bottom: 0;
+    }
+    .home__input .input__button button {
         margin-bottom: 0;
     }
 }
