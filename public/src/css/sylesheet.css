@@ -186,16 +186,17 @@ fieldset {
 
 .home__navbar {
     background-color: rgba(99, 98, 98, 0.6);
-    width: 90px;
+    width: 100%;
     position: fixed;
     z-index: 5;
     left: 0;
     right: 0;
-    height: 100%;
+    bottom: 0;
 }
 
 .home__navbar ul {
-    margin: 104px auto 180px;
+    margin: auto 20px;
+    display: flex;
 }
 
 .home__navbar ul li a img {
@@ -486,7 +487,7 @@ fieldset {
 /* Style Contact Pages */
 
 .home__container {
-    width: 50%;
+    width: 100%;
     min-height: 100vh;
     background-color: #202020;
 }
@@ -588,14 +589,17 @@ textarea::placeholder {
 
 @media screen and (min-width: 40em) {
     .home__navbar {
-        background-color: rgba(99, 98, 98, 0.6);
         width: 90px;
-        position: inherit;
-        height: inherit;
+        left: 0;
+        right: 0;
+        height: 100vh;
     }
     .home__navbar ul {
         margin: 104px auto 180px;
-        position: fixed;
+        display: block;
+    }
+    .mrg-left--38 {
+        margin-left: 125px;
     }
     .gallery__items {
         display: flex;
@@ -612,18 +616,24 @@ textarea::placeholder {
         float: right;
         padding-right: 5px;
     }
+    .home__container {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 60em) {
     .home__navbar {
-        background-color: rgba(99, 98, 98, 0.6);
         width: 90px;
-        position: inherit;
-        height: inherit;
+        left: 0;
+        right: 0;
+        height: 100vh;
     }
     .home__navbar ul {
         margin: 104px auto 180px;
-        position: fixed;
+        display: block;
+    }
+    .mrg-left--38 {
+        margin-left: 125px;
     }
     .gallery__items {
         margin-top: 35px;
@@ -638,5 +648,8 @@ textarea::placeholder {
     .items .caption .right {
         float: right;
         padding-right: 5px;
+    }
+    .home__container {
+        width: 50%;
     }
 }
