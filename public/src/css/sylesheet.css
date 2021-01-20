@@ -593,6 +593,13 @@ textarea::placeholder {
     display: none;
 }
 
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 @media screen and (min-width: 40em) {
     .intro__text {
         font-size: 2.5rem;
