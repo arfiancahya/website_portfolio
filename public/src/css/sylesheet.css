@@ -461,6 +461,7 @@ fieldset {
     text-align: center;
     font-family: 'Sniglet', cursive;
     font-size: 1.4rem;
+    margin-bottom: 40px;
 }
 
 .home__content .pagination div {
@@ -621,6 +622,9 @@ textarea::placeholder {
     .home__container {
         width: 50%;
     }
+    .pagination {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 60em) {
@@ -661,5 +665,8 @@ textarea::placeholder {
     }
     .home__container {
         width: 50%;
+    }
+    .pagination {
+        margin-bottom: 0;
     }
 }
